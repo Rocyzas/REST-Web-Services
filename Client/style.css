@@ -1,0 +1,152 @@
+
+.center {
+	text-align: center;
+	padding: 2%;
+	margin-top:100px;
+}
+
+.inputs{
+	height: 7%;
+	font-size: 2em;
+	border-radius: 12%;
+}
+
+.buttons{
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 10px;
+	height: 7%;
+	font-size: 2em;
+	border-radius: 12%;
+	font-size: 4vh;
+  transition-duration: 0.7s;
+  cursor: pointer;
+	background-color: #D7EFFD;
+  color: black;
+  border: 2px solid #000352;
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+
+.buttons:hover {
+  background-color: #5A92B2;
+  color: white;
+	text-font: bold;
+	font-family: "Lucida Console", Courier, monospace;
+	font-style: italic;
+}
+
+.quotestyle{
+	border-radius: 8%;
+	text-align: center;
+	font-size: 2em;
+	padding: 2%;
+	font-family: "Lucida Console", Courier, monospace;
+	font-style: italic;
+	color: black;
+}
+
+.quotetext{
+
+	font-weight: bold;
+
+}
+
+.authortext{
+	text-align: right;
+}
+
+.a{
+  margin : 0 auto;
+	width:80%;
+	height: 22%;
+  background: rgba(0, 0, 0, 0.0);
+  text-align:left;
+}
+
+.b{
+	margin-top: 0 auto;
+    background-color: blue;
+		opacity: 0.75;
+    height: 80%;
+    width: 20%;
+  display:inline-block;
+  vertical-align:top;
+	transition-duration: 0.5s;
+}
+.b:hover{
+	margin-top: 0 auto;
+  background-color: blue;
+	opacity: 1;
+  height: 100%;
+  width: 24%;
+  display:inline-block;
+  vertical-align:top;
+	transition-duration: 0.5s;
+}
+
+.c{
+	margin-top: 0 auto;
+    background-color: #D7EFFD;
+		overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+
+	word-wrap: break-word;
+    height: 80%;
+    width: 74%;
+  display:inline-block;
+  vertical-align:top;
+	transition-duration: 0.5s;
+	font-family: "Lucida Console", Courier, monospace;
+
+
+}
+
+.c:hover{
+	margin-top: 0 auto;
+    background-color: white;
+		overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+		font-size: 1.5em;
+		word-wrap: break-word;
+    height: 100%;
+    width: 78%;
+	  display:inline-block;
+
+		transition-duration: 0.5s;
+	  overflow-y: scroll;
+		font-family: "Lucida Console", Courier, monospace;
+}
+.t{
+	font-size: 1.5em;
+	font-family: "Lucida Console", Courier, monospace;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+
+.bodywrapper{
+	background-color: rgba(208, 208, 208, 0.4);
+}
+/*
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+.wrapper {
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+
+  width: 100%;
+  height: 100%;
+
+  animation: animation 100s linear infinite;
+}
+
+@keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+} */

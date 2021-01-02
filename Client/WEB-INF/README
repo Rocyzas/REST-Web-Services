@@ -1,0 +1,4 @@
+Edit web.xml, replacing xxxx with your username and password.
+Then cd up a level and generate a WAR file like so:
+
+  jar cf ../enrolment.war *
